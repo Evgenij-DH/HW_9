@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("fonts/subset-MyriadPro-Regular.eot");
+    src: url("fonts/subset-MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/subset-MyriadPro-Regular.woff2") format("woff2"),
+        url("fonts/subset-MyriadPro-Regular.woff") format("woff"),
+        url("fonts/subset-MyriadPro-Regular.ttf") format("truetype"),
+        url("fonts/subset-MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Myriad Pro", sans-serif;
+    background-color: blueviolet;
+    margin: 0;
+}
+nav {
+    margin: 0;
+    background-color: red;
+    width: 80%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+    width: 150px;
+    text-align: center;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px 5px 5px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+nav a:hover {
+    background-color: black;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display: inherit;
+}
+nav ul ul li {
+    width: 180px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.clearfix {
+    clear: both;
+}
+.fon {
+    background-image: url("images/shmidta.JPG");
+    width: 1000px;
+    height: 1000px;
+    margin: 10px 0px 30px 100px;
+}
