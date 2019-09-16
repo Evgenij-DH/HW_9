@@ -34,6 +34,7 @@ nav ul li {
     background-color: red;
     width: 150px;
     text-align: center;
+    left: 0px;
 }
 nav a {
     display: block;

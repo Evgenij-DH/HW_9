@@ -23,7 +23,6 @@ body {
     vertical-align: top;
     width: 150px;
     background-color: red;  
-    position: relative; 
 }
 .link {
     display: block;
@@ -33,10 +32,13 @@ body {
     padding: 5px 10px 5px 5px;
     text-align: center;    
 }
+.down {
+    position: relative;
+}
 .ulsd { 
     position: absolute;
     list-style: none;
-    display: none;       
+    display: none;
 }
 .sudmenu {
     text-decoration: none;
@@ -45,8 +47,8 @@ body {
     background-color: red;
     width: 180px;
     display: block;
-    text-align: center;    
-}
+    text-align: center;   
+}   
 .link:hover {
     background-color: black;  
     text-decoration: underline;
@@ -54,7 +56,7 @@ body {
 .sudmenu:hover {
     background-color: black;
     text-decoration: underline;
-}
+} 
 .menu:hover .ulsd {
     display: block;
 }
