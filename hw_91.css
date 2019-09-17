@@ -57,7 +57,7 @@ body {
     background-color: black;
     text-decoration: underline;
 } 
-.menu:hover .ulsd {
+.down:hover .ulsd {
     display: block;
 }
 .fon { 
